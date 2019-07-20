@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_margin="16dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="DETAILS OF THE BOOK "
+           android:textSize="20dp"
+           android:textAppearance="@style/TextAppearance.AppCompat.Title"
+           android:id="@+id/text_headline"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="ENTER THE BOOKID: "
+           android:inputType="number"
+           android:padding="10dp"
+           android:id="@+id/bid"/>
+       <EditText
+           android:id="@+id/bname"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="ENTER THE TITLE OF THE BOOK"
+           android:inputType="textPersonName"
+           android:padding="10dp"/>
+       <EditText
+           android:id="@+id/bjournel"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="JOURNEL TITLE:"
+           android:inputType="text"
+           android:padding="10dp"/>
+       <EditText
+           android:id="@+id/bauthor"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="ENTER THE NAME OF THE PUBLISHER"
+           android:inputType="textPersonName"
+           android:padding="10dp"/>
+       <EditText
+           android:id="@+id/byear"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="DATE/YEAR OF PUBLISHING:"
+           android:inputType="text"
+           android:padding="10dp"/>
+       <EditText
+           android:id="@+id/babs"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="ABSTRACT:"
+           android:inputType="textMultiLine"
+           android:padding="10dp"/>
+       <EditText
+           android:id="@+id/bdesc"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="DESCRIPTION/SUBJECT OF THE BOOK:"
+           android:inputType="textMultiLine"
+           android:padding="10dp"/>
+       <Button
+           android:id="@+id/btn_insert"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="INSERT"/>
+
+
+   </LinearLayout>
+
+</ScrollView>
